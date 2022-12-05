@@ -1,0 +1,111 @@
+{
+    "name": "Ξ𝗜𝗧𝗛𝗢𝗡™ ايثون",
+    "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
+    "logo": "https://telegra.ph/file/e9258f1ae714616d2cdbb.jpg",
+    "keywords": [
+        "py-tgcalls",
+        "telegram bot",
+        "video stream",
+        "live stream",
+        "music stream",
+        "mongodb",
+        "pyrogram"
+    ],
+    "website": "https://t.me/EITHON1",
+    "repository": "https://github.com/pqnzbmmwQ92/ll",
+    "success_url": "https://t.me/EITHMU1",
+    "env": {
+        "API_ID": {
+            "description": "18234289",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "b3a6fc806a1059bf5f471ad48f63435f",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "5517235789:AAHq5zQwvRgqXRCzrbbKXR06hxzqTCeORW4",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "zahraa71bot",
+            "required": true,
+            "value": ""
+        },
+        "ASSISTANT_NAME": {
+            "description": "I8dnc",
+            "required": true,
+            "value": ""
+        },
+        "SESSION_NAME": {
+            "description": "1ApWapzMBu69uMd8JdL1kvFAgA5e16KG4pRQJGNpaggvsZoM7RA9Ea7qGD6gKGnBOPEJBpizlwXsZxGYIvMZ6ozCwrsmDrahcsh09RXhgmTYCiGLPHvnvs4KBQyPDHK2Q8IcCGrpTMQAXvRFNSdFCimr5kxC6sQk6pWU4gTXB5_A3lmT0VztkGKtRYGKQY1H7VzepsoeV3B8s-xIY-Bl4mzTnZoRVw1BMY_2RKKYImuK9ArJLSKxSsbo_ygH2i1rowUqzW6OB_5wWYahD3MxmLuXWH09POoDIJBSN7dEtPNMxzk9Cr_N2aFkbHGeeWqHVDWnTH2O3sv5_u--Lks8wHrOin5IpKEg=",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "611122715",
+            "required": true,
+            "value": ""
+        },
+        "GROUP_SUPPORT": {
+            "description": "V_U_VV",
+            "required": true,
+            "value": ""
+        },
+        "UPDATES_CHANNEL": {
+            "description": "V_U_22",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_NAME": {
+            "description": "d8_8q",
+            "required": true,
+            "value": ""
+        },
+        "BOT_PHOTO": {
+            "description": "https://t.me/c/1749028632/15452 ",
+            "required": true
+        },
+        "DEV_PHOTO": {
+            "description": "https://t.me/c/1749028632/15452",
+            "required": true
+        },
+        "DEV_NAME": {
+            "description": "kimo",
+            "required": true
+        },
+        "ALIVE_NAME": {
+            "description": "kimo",
+            "required": true,
+            "value": ""
+        },
+        "MONGODB_URL": {
+            "description": "لا تغيره!",
+            "required": true,
+            "value": "mongodb+srv://lucifer:ASShaw96@lucifer.vuows.mongodb.net/lucifer?retryWrites=true&w=majority"
+        },
+        "UPSTREAM_REPO": {
+            "description": "اتركه كما هوا",
+            "required": true,
+            "value": "https://github.com/pqnzbmmwQ92/ll"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
